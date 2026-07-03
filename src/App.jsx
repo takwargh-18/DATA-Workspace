@@ -17,12 +17,12 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "กรอก_API_KEY_ของคุณที่นี่",                     // 👈 กรอก API Key จาก Firebase ของคุณ
+  apiKey: "AIzaSyBIsrn49A16UaBPqvcOcpjnGKGH51Xi8g8",           
   authDomain: "send-system-862c4.firebaseapp.com",
   projectId: "send-system-862c4",
   storageBucket: "send-system-862c4.appspot.com",
-  messagingSenderId: "กรอก_MESSAGING_SENDER_ID_ของคุณที่นี่", // 👈 กรอก Sender ID จาก Firebase ของคุณ
-  appId: "กรอก_APP_ID_ของคุณที่นี่"                            // 👈 กรอก App ID จาก Firebase ของคุณ
+  messagingSenderId: "432190154593", 
+  appId: "1:432190154593:web:c7c1f6c428e6e690088720"                           
 };
 
 const app = initializeApp(firebaseConfig);
